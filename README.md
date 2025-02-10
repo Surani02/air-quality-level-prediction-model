@@ -35,11 +35,12 @@ The model predicts air quality categories:
 
 ## 📂 Project Structure  
 ```
-📁 air-quality-level-prediction-model  
+📁 air-quality-level-prediction  
  ├── 📄 app.py                # Streamlit UI  
  ├── 📄 model_loader.py       # Model loading and prediction function  
  ├── 📄 air_quality_model.pkl # Trained model file  
- ├── 📄 README.md             # Project documentation  
+ ├── 📄 requirements.txt      # Dependencies  
+ ├── 📄 README.md             # Project documentation    
 ```  
 
 ## ⚡ Installation & Usage  
@@ -52,9 +53,7 @@ cd air-quality-level-prediction-model
 
 ### 2️⃣ Install dependencies  
 ```bash
-pip install numpy
-pip install joblib
-pip install streamlit
+pip install -r requirements.txt
 ```
 
 ### 3️⃣ Run the application  
