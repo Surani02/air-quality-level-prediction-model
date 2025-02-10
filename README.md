@@ -1,18 +1,17 @@
 # 🌍 Air Quality Level Prediction Model  
 
-This repository contains a **Streamlit-based web application** that predicts **air quality levels** based on various environmental parameters. The model is built using a **Voting Classifier** that combines **Random Forest, XGBoost, and LightGBM** for robust classification.  
+This repository contains a **Streamlit-based web application** that predicts **air quality levels** based on various environmental parameters. The model is built using a **Voting Classifier** that combines **Random Forest, XGBoost, and LightGBM** for robust classification.
 
 ## 🚀 Features  
 ✅ **Predicts air quality levels** based on input features  
 ✅ **Uses an ensemble learning approach** for better accuracy  
-✅ **Streamlit UI** for an interactive and user-friendly experience  
-✅ **Deployable** on platforms like **Streamlit Cloud**  
+✅ **Deployed** using **Streamlit** for an interactive and user-friendly experience and easy accessibility 
 
 ## 📊 Dataset  
 The model is trained on the **Air Quality and Pollution Assessment** dataset from Kaggle:  
 🔗 [Dataset Link](https://www.kaggle.com/datasets/mujtabamatin/air-quality-and-pollution-assessment)  
 
-The full **model training code** is available in the **my Kaggle Notebook**:  
+The full **training process and model development** is available in the **my Kaggle Notebook**:  
 🔗 [Kaggle Notebook](https://www.kaggle.com/code/suraninaranpanawa/air-quality-level-prediction-model)  
 
 ## 🧠 Model Details  
@@ -32,6 +31,10 @@ The model predicts air quality categories:
 - 🟡 **Moderate**  
 - 🟠 **Poor**  
 - 🔴 **Hazardous**  
+
+## 📊 Model Overview  
+- **Algorithm**: Voting Classifier (Random Forest, XGBoost, LightGBM)  
+- **Deployment**: Streamlit  
 
 ## 📂 Project Structure  
 ```
@@ -61,8 +64,13 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-## 🎯 Deployment  
-You can deploy this app using **Streamlit Cloud** or any cloud platform supporting Python applications.
+## 🚀 Live Demo  
+Try the **Air Quality Level Prediction Model** here: [https://air-quality-level-prediction-model-druvgyjsboxx559z4r4rrf.streamlit.app/]  
+
+## 🎯 Usage  
+1. **Enter environmental factors** such as temperature, humidity, and pollutant levels.  
+2. **Click "Predict Air Quality"** to classify the air quality level.  
+3. **Get an instant prediction** from the trained model.  
 
 ## 🤝 Contributing  
 Contributions are welcome! Feel free to **fork**, **open issues**, or **submit pull requests**.  
