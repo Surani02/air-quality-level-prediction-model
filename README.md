@@ -37,7 +37,7 @@ The model predicts air quality categories:
 ```
 📁 air-quality-level-prediction  
  ├── 📄 app.py                # Streamlit UI  
- ├── 📄 model_loader.py       # Model loading and prediction function  
+ ├── 📄 model_loader.py       # Model loading function  
  ├── 📄 air_quality_model.pkl # Trained model file  
  ├── 📄 requirements.txt      # Dependencies  
  ├── 📄 README.md             # Project documentation    
