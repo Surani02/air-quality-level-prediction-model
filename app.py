@@ -3,6 +3,9 @@ import numpy as np
 import joblib
 from model_loader import predict_air_quality  
 
+# Streamlit page configuration
+st.set_page_config(page_title="Air Quality Level Prediction Model", page_icon="🌍", layout="centered", initial_sidebar_state="auto", menu_items=None)
+
 # Mean and std values from training data
 feature_stats = {
     "🌡️ Temperature (°C)": {"mean": 30.029020, "std": 6.720661},
