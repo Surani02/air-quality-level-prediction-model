@@ -2,7 +2,7 @@
 
 This repository contains a **Streamlit-based web application** that predicts **air quality levels** based on various environmental parameters. The model is built using a **Voting Classifier** that combines **Random Forest, XGBoost, and LightGBM** for robust classification.
 
-## 🚀 Features  
+## ⭐ Features  
 ✅ **Predicts air quality levels** based on input features  
 ✅ **Uses an ensemble learning approach** for better accuracy  
 ✅ **Deployed** using **Streamlit** for an interactive and user-friendly experience and easy accessibility 
