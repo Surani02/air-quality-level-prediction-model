@@ -3,7 +3,7 @@ import numpy as np
 import joblib
 from model_loader import predict_air_quality  
 
-# Correct mean and std values from training data
+# Mean and std values from training data
 feature_stats = {
     "🌡️ Temperature (°C)": {"mean": 30.029020, "std": 6.720661},
     "💧 Humidity (%)": {"mean": 70.056120, "std": 15.863577},
