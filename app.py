@@ -3,6 +3,9 @@ import numpy as np
 import joblib
 from model_loader import predict_air_quality  
 
+# Set page title
+st.set_page_config(page_title="Air Quality Level Prediction")
+
 # Mean and std values from training data
 feature_stats = {
     "🌡️ Temperature (°C)": {"mean": 30.029020, "std": 6.720661},
